@@ -8,7 +8,7 @@ const connectDB = async ()=>{
     const DB = process.env.MONGO_URI.replace('<PASSWORD>', process.env.PASSWORD);
 
 mongoose.connect(DB).then(() => {
-  console.log('DB connection successful!!');
+  console.log('DB connection successful!!!');
 });
 
 }
