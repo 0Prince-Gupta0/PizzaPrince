@@ -5,7 +5,7 @@ server/node_modules
 client/node_modules
 
 # misc
-server/.env
+server/c.env
 .env.local
 .env.development.local
 .env.test.local

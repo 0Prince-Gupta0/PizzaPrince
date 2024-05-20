@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-dotenv.config({ path: './c.env' });
+dotenv.config({ path:`${__dirname}/../c.env`});
 
 const connectDB = async ()=>{
     const DB = process.env.MONGO_URI.replace('<PASSWORD>', process.env.PASSWORD);
